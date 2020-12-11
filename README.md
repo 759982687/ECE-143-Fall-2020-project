@@ -4,6 +4,7 @@ This is a course project for the UCSD-ECE-143-Fall-2020, you can see our present
 Group members are: Avak Archanian, Zhizheng Qiao, Jieyun Yang, Hangquan Zhao
 
 1. We have two datasets and they are both from kaggle
+
 First is "EmojifyData-EN: English tweets, with emojis" https://www.kaggle.com/rexhaif/emojifydata-en 
 
 This dataset related works you can see in: emoji sentiment folder
