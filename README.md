@@ -12,8 +12,9 @@ This dataset related works you can see in: emoji sentiment folder
 
 This dataset related works you can see in: reader & writer sentiment difference folder
 
-We also did some works about Twitter API (Tweepy) and twitter stream listen, you can see them in: twitter stream listener
+We also did some works about Twitter API (Tweepy) and twitter stream listen, you can see them in: twitter stream listener folder
 
+The over-all plots are in: plot folder  you can see them in plot.ipynb
 
 All the third-party modules needed:
 - Numpy
