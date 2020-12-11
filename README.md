@@ -10,7 +10,7 @@ This dataset related works you can see in: emoji sentiment folder
 
 2. "Emoji sentiment" https://www.kaggle.com/harriken/emoji-sentiment
 
-This dataset related works you can see in: reader & writer sentiment difference
+This dataset related works you can see in: reader & writer sentiment difference folder
 
 We also did some works about Twitter API (Tweepy) and twitter stream listen, you can see them in: twitter stream listener
 
