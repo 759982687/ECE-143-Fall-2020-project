@@ -1,4 +1,4 @@
-Overall, we failed to get useful data from Twitter API and we think spend more time on this is meaningless and also a waste of time. This file is just show the work we did
+Overall, we failed to get useful data from Twitter API and we think spend more time on this is meaningless and also a waste of time. This file is just for showing the work we did
 
 There are some YouTube tutorial and we see most of them and successfully can stream the Twitter data. There are two ways to get data. 
 
