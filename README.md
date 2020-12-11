@@ -5,12 +5,14 @@ Group members are: Avak Archanian, Zhizheng Qiao, Jieyun Yang, Hangquan Zhao
 
 We have two datasets and they are both from kaggle
 1. "EmojifyData-EN: English tweets, with emojis" https://www.kaggle.com/rexhaif/emojifydata-en 
-  This dataset related works you can see in: emoji sentiment folder
+
+This dataset related works you can see in: emoji sentiment folder
 
 2. "Emoji sentiment" https://www.kaggle.com/harriken/emoji-sentiment
-  This dataset related works you can see in: reader & writer sentiment difference
 
-We also did some work on Twitter API (Tweepy) and twitter streamer listen, you can see them in: twitter stream listener
+This dataset related works you can see in: reader & writer sentiment difference
+
+We also did some works about Twitter API (Tweepy) and twitter stream listen, you can see them in: twitter stream listener
 
 
 All the third-party modules needed:
