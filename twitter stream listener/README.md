@@ -1,1 +1,9 @@
-asdfasdf
+Overall, we failed to get useful data from Twitter API and we think spend more time on this is meaningless and also a waste of time. This file is just show the work we did
+
+There are some YouTube tutorial and we see most of them and successfully can stream the Twitter data. There are two ways to get data. 
+
+One is real-time streaming, you can see the tweepy_streamer.py, we can filter the real-time Tweets with hash_tag_list or longitude and latitude location. However, the problem is this streamer and only listen to the server and we need to write some code to do the real-time process, we think this need some multi-thread in python and also need to set some space to save the data temperately, we don’t have too much knowledge about this, so we gave up this way. Result is tweets.txt.
+
+Another way is use API.search, http://docs.tweepy.org/en/latest/api.html#search-methods  Because we want to have random Tweets with emojis, other ways to collect Tweets is not suitable. we set the search keywords to the most common words in English and language to English. 
+
+You can see this code at twitter_once.py. we also set the filter to distinguish tweet.text whether or not have the emojis and also do the sentence emotional judgment with TextBlob. The result is saved in TweetData.xlsx and TweetData.csv. Here coms the question, only small part of the tweets have the emojis as well as location information, so we modified our code to twitter_emoji.py to only save tweets with emojis. Result is TweetData_emoji.xlsx. Question is that data is too small, we searched 3000 tweets but only can get about 100 emojis. We then changed the search date to different day, question is that Twitter can only search for the past 7 days, so the final result is twitter_time.py We searched about 20000 tweets and result is TweetData_time.xlsx, no more than 500 useful data. We also exceed the Max Search Rate of Twitter API and have to wait for the server and this code will run hours to get the result.
